@@ -27,31 +27,32 @@ Some Pictures about this app:
 
 Login Screen:
 
+![](images/Capture.PNG)
 
 Home Screen:
 
-
+![](images/HomeScreen.PNG)
 
 Training Screen:
 
-
+![](images/TrainingScreen.PNG)
 
 My Diary Screen:
 
-
+![](images/MyDiaryScreen.PNG)
 
 Drawer Screen:
 
-
+![](images/DrawerScreen.PNG)
 
 FeedBack Screen:
 
-
+![](images/FeedBackScreen.PNG)
 
 Help Screen:
 
-
+![](images/HelpScreen.PNG)
 
 Invite Friends Screen:
 
-
+![](images/InviteScreen.PNG)
