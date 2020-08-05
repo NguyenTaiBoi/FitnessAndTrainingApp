@@ -155,7 +155,7 @@ class _HomeDrawerState extends State<HomeDrawer> {
                   color: Colors.red,
                 ),
                 onTap: () {
-
+                  Navigator.pop(context);
                 },
               ),
               SizedBox(

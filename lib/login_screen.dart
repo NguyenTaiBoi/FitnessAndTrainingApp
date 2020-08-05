@@ -1,3 +1,4 @@
+import 'package:doan1_test/navigation_home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:doan1_test/model/constants.dart';
@@ -131,7 +132,7 @@ class _LoginScreenState extends State<LoginScreen> {
         onPressed: () {
           Navigator.push(
             context,
-              MaterialPageRoute(builder: (context)=> FitnessAppHomeScreen() ),
+              MaterialPageRoute(builder: (context)=> NavigationHomeScreen() ),
           );
         },
         padding: EdgeInsets.all(15.0),

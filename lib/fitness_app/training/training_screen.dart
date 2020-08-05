@@ -203,15 +203,15 @@ class _TrainingScreenState extends State<TrainingScreen>
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: <Widget>[
-                            IconButton(
-                              icon: Icon(Icons.menu),
-                              onPressed: (){
-
-                              },
-                            ),
+//                            IconButton(
+//                              icon: Icon(Icons.menu),
+//                              onPressed: (){
+//
+//                              },
+//                            ),
                             Expanded(
                               child: Padding(
-                                padding: const EdgeInsets.all(8.0),
+                                padding: const EdgeInsets.only(left:40.0),
                                 child: Text(
                                   'Training',
                                   textAlign: TextAlign.left,

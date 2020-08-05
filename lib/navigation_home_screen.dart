@@ -2,6 +2,7 @@ import 'package:doan1_test/app_theme.dart';
 import 'package:doan1_test/custom_drawer/drawer_user_controller.dart';
 import 'package:doan1_test/custom_drawer/home_drawer.dart';
 import 'package:doan1_test/feedback_screen.dart';
+import 'package:doan1_test/fitness_app/fitness_app_home_screen.dart';
 import 'package:doan1_test/help_screen.dart';
 import 'package:doan1_test/home_screen.dart';
 import 'package:doan1_test/invite_friend_screen.dart';
@@ -20,7 +21,7 @@ class _NavigationHomeScreenState extends State<NavigationHomeScreen> {
   @override
   void initState() {
     drawerIndex = DrawerIndex.HOME;
-    screenView = const MyHomePage();
+    screenView = FitnessAppHomeScreen();
     super.initState();
   }
 
@@ -53,7 +54,7 @@ class _NavigationHomeScreenState extends State<NavigationHomeScreen> {
       drawerIndex = drawerIndexdata;
       if (drawerIndex == DrawerIndex.HOME) {
         setState(() {
-          screenView = const MyHomePage();
+          screenView =  FitnessAppHomeScreen();
         });
       } else if (drawerIndex == DrawerIndex.Help) {
         setState(() {

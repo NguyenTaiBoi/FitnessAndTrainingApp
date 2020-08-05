@@ -6,6 +6,7 @@ import 'package:doan1_test/fitness_app/fitness_app_theme.dart';
 import 'package:doan1_test/fitness_app/my_diary/meals_list_view.dart';
 import 'package:doan1_test/fitness_app/my_diary/water_view.dart';
 import 'package:doan1_test/navigation_home_screen.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:doan1_test/custom_drawer/drawer_user_controller.dart';
 
@@ -248,17 +249,17 @@ class _MyDiaryScreenState extends State<MyDiaryScreen>
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: <Widget>[
-                            IconButton(
-                              icon: Icon(Icons.menu),
-                              onPressed: (){
-                                Navigator.push( context,
-                                  MaterialPageRoute(builder: (context)=> NavigationHomeScreen() ),
-                                );
-                              },
-                            ),
+//                            IconButton(
+//                              icon: Icon(Icons.menu),
+//                              onPressed: (){
+//                                Navigator.push( context,
+//                                  MaterialPageRoute(builder: (context)=> NavigationHomeScreen() ),
+//                                );
+//                              },
+//                            ),
                             Expanded(
                               child: Padding(
-                                padding: const EdgeInsets.all(8.0),
+                                padding: const EdgeInsets.only(left:40.0),
                                 child: Text(
                                   'My Diary',
                                   textAlign: TextAlign.left,
